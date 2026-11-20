@@ -20,7 +20,19 @@ const fruits = ["apple", "banana", "orange"];
 
 // ✍️ Solve it here ✍️
 
+const fruits = ["apple", "banana", "orange"];
 
+// 1. Add mango
+fruits.push("mango");
+
+// 2. Remove first item
+fruits.shift();
+
+// 3. Log final array
+console.log(fruits);
+
+// 4. Log number of items
+console.log(fruits.length);
 
 
 /* ------------------------------------------------------------
@@ -40,7 +52,11 @@ const cities = ["Mogadishu", "Hargeisa", "Bosaso", "Garowe"];
 // ✍️ Solve it here ✍️
 
 
+const cities = ["Mogadishu", "Hargeisa", "Bosaso", "Garowe"];
 
+cities.forEach((city, index) => {
+    console.log(`${index + 1}. ${city}`);
+});
 
 /* ------------------------------------------------------------
    Task 3: Build an Object 👤
@@ -53,7 +69,20 @@ const cities = ["Mogadishu", "Hargeisa", "Bosaso", "Garowe"];
 
 // ✍️ Solve it here ✍️
 
+const student = {
+    name: "Mohamed",
+    age: 22,
+    isEnrolled: true
+};
 
+// 1. Log name
+console.log(student.name);
+
+// 2. Increase age by 1
+student.age = student.age + 1;
+
+// 3. Log whole object
+console.log(student);
 
 
 /* ------------------------------------------------------------
@@ -74,7 +103,15 @@ const students = [
 // ✍️ Solve it here ✍️
 
 
+const students = [
+    { name: "Fatuma", score: 92 },
+    { name: "Asha", score: 68 },
+    { name: "Khadija", score: 85 }
+];
 
+students.forEach((student) => {
+    console.log(`${student.name} scored ${student.score}`);
+});
 
 /* ------------------------------------------------------------
    🚀 STRETCH (optional)
