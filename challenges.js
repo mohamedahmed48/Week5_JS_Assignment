@@ -11,7 +11,7 @@
    Start with this array:
    ------------------------------------------------------------ */
 
-const fruits = ["apple", "banana", "orange"];
+
 
 // 1. Add "mango" to the end
 // 2. Remove the FIRST item (.shift())
@@ -47,7 +47,6 @@ console.log(fruits.length);
    Hint: the forEach callback gets (item, index) as arguments.
    ------------------------------------------------------------ */
 
-const cities = ["Mogadishu", "Hargeisa", "Bosaso", "Garowe"];
 
 // ✍️ Solve it here ✍️
 
@@ -94,11 +93,7 @@ console.log(student);
      "Khadija scored 85"
    ------------------------------------------------------------ */
 
-const students = [
-  { name: "Fatuma",  score: 92 },
-  { name: "Asha",    score: 68 },
-  { name: "Khadija", score: 85 }
-];
+
 
 // ✍️ Solve it here ✍️
 
